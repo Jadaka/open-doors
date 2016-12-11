@@ -7,7 +7,7 @@ class ListCompanies extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchQuery: 'Google',
+      searchQuery: 'Informz',
     };
   }
 
@@ -23,6 +23,7 @@ class ListCompanies extends Component {
       "workLifeBalance": 333,
       "equalPay"       : 433,
     };
+
     return (
       <div className="company-list-container">
         <SearchHeader />
