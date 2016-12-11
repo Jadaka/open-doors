@@ -41,7 +41,7 @@ class SearchCompany extends Component {
         </div>
         <div className="row" style={{'marginTop': '40px'}}>
           <div className="col-md-8 col-md-offset-2 search-title">
-            <h3>Search job sites, newspapers, associations, and company career pages.</h3>
+            <h2>Discover a company that treats you fairly</h2>
           </div>
         </div>
         <div className="row">
