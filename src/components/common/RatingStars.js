@@ -21,20 +21,19 @@ class RatingStars extends Component {
   renderStars() {
     const starCount = this.state.stars;
     if(starCount === 0) {
-      return _.range(1, 5).map((num) => {
+      return _.range(0, 5).map((num, i) => {
         return (
-          <img onClick={this.handleOnClick(num)} className="star-graphic" src={EmptyStar} key={num} role="presentation" />
+          <img onClick={this.handleOnClick(num)} className="star-graphic" src={EmptyStar} key={i} role="presentation" />
         );
       });
     } else {
-      const starArr = [];
-      for (var i = 1; i < this.state.stars; i++) {
-        starArr.push("full");
-      }
+      const starArr = this.state.stars.map((stars) => {
+        return "full";
+      });
       if (starCount - Math.floor(starCount) > 0.2) {
         starArr.push("half");
       }
-      starArr.map((starState, idx) => {
+      return starArr.map((starState, idx) => {
         if (starState === "full") {
           starState = FullStar;
         } else if (starState === "half") {
@@ -49,7 +48,7 @@ class RatingStars extends Component {
     return (
       <div className="rating-stars">
         <span>Leave a 1-5 Review</span>
-
+        { this.renderStars() }
       </div>
     );
   }
