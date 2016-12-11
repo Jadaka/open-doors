@@ -36,6 +36,10 @@ class Review extends Component {
               <span className="slider-label">{item}</span>
             </div>
             <div className="col-xs-8">
+              <div className="slider-rating-labels">
+                <span className="not-satisfied" style={{"float": 'left'}}>Not Satisfied</span>
+                <span className="not-satisfied" style={{"float": 'right'}}>Highly Satisfied</span>
+              </div>
               <Slider />
             </div>
           </div>

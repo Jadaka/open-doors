@@ -13,11 +13,16 @@
 }
 
 .slider-container {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .slider-label {
   font-size: 20px;
+}
+
+.slider-rating-labels {
+  position: relative;
+  bottom: 20px;
 }
 
 .rate-company-container {
