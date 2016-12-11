@@ -57,7 +57,7 @@ class Review extends Component {
             <div className="review-body">
               <div className="row">
                 <div className="col-xs-12 center-xs">
-                  <span className="review-title">{`Write a Review for "Digital Insight"`}</span>
+                  <span className="review-title">{`Write a Review for "Informz"`}</span>
                 </div>
               </div>
               <div className="row">
