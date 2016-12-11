@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+
+.search-header {
+  position: fixed;
+  padding: 25px 100px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  border-bottom: 1px solid palette("gray", -5);
+}
+
+.search-header-right {
+  position: relative;
+
+  .search-box-container {
+    position: absolute;
+    right: 0;
+  }
+}

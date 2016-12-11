@@ -1,0 +1,30 @@
+@import '../../styles/mixins/mq';
+@import '../../styles/colors';
+
+.login-container {
+  padding: 25px;
+
+  @include mq(tall) {
+    padding: 40px 80px;
+  }
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.login-subtitle {
+  text-align: center;
+  margin-top: 0px;
+  color: palette("gray", -30);
+}
+
+.login-form {
+  position: relative;
+  margin: auto;
+
+  @include mq(tall) {
+    max-width: 500px;
+  }
+}

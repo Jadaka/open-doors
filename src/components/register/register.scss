@@ -1,0 +1,35 @@
+@import '../../styles/mixins/mq';
+@import '../../styles/colors';
+
+.register-container {
+  padding: 25px;
+
+  @include mq(tall) {
+    padding: 40px 80px;
+  }
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.register-subtitle {
+  text-align: center;
+  margin-top: 0px;
+  color: palette("gray", -30);
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.register-form {
+  position: relative;
+  margin: auto;
+
+  @include mq(tall) {
+    max-width: 500px;
+  }
+}

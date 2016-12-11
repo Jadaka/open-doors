@@ -1,0 +1,23 @@
+@import './styles/typography';
+@import './styles/colors';
+
+// globals
+body {
+  margin: 0;
+  color: palette("gray", -60);
+}
+
+a {
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: palette("accent-pink");
+}
+
+a:hover {
+  transition: all 0.3s ease;
+  color: palette("accent-pink", 20);
+}
+
+p {
+  line-height: 1.4;
+}

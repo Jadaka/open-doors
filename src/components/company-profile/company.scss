@@ -1,0 +1,33 @@
+@import '../../styles/colors';
+
+.progress-arc-label {
+  display: block;
+  text-align: center;
+}
+
+.stats-label-misc {
+  margin: 10px 0;
+}
+
+.stats {
+  margin-bottom: 50px;
+}
+
+span.bold {
+  display: block;
+  font-weight: 700;
+}
+
+.review-content {
+  font-size: 18px;
+}
+
+.single-review-container {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid palette("gray", -10);
+}
+
+.single-review-container:last-child {
+  border: none;
+}

@@ -1,0 +1,9 @@
+@import '../../styles/mixins/mq';
+
+.search-page {
+  padding: 25px;
+
+  @include mq(tall) {
+    padding: 40px 80px;
+  }
+}

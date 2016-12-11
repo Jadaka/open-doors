@@ -1,0 +1,8 @@
+[include]
+
+[ignore]
+../node_modules/fbjs/.*
+
+[options]
+module.name_mapper.extension='css' -> '<PROJECT_ROOT>/config/flow/CSSStub.js'
+module.name_mapper.extension='scss' -> '<PROJECT_ROOT>/config/flow/CSSStub.js'

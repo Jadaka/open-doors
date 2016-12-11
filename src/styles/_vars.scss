@@ -1,0 +1,27 @@
+// typography
+$_base-font-size: 16px;
+$_font-sizes: (
+  h1: 2.8rem,
+  h2: 2.2rem,
+  h3: 1.9rem,
+  h4: 1.5rem,
+  h5: 1.0rem,
+  h6: 0.8rem
+);
+
+// base color scheme:
+$_colors: (
+  "white"      : #FAFAFB,
+  "gray"       : #F1F2F3,
+  "darkgray"   : #404B5A,
+  "accent-blue": #00C1DD,
+  "accent-pink": #E338A3
+);
+
+// media query breakpoints:
+$_breakpoints: (
+  short : 480px,
+  tall  : 768px,
+  grande: 1028px,
+  venti : 1200px
+);

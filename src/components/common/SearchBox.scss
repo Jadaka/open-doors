@@ -1,0 +1,62 @@
+@import '../../styles/mixins/mq';
+@import '../../styles/colors';
+
+.search-company, .search-location {
+  .input-form {
+    border: 1px solid black;
+  }
+}
+
+.search-title {
+  text-align: center;
+  color: palette("gray", -50);
+}
+
+.search-input-logo {
+  position: absolute;
+  top: 15px;
+  right: 29px;
+}
+
+.search-left {
+  display: inline-block;
+
+  input {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0;
+  }
+
+  .fl-input-form-label {
+    position: absolute;
+    top: -6px;
+    left: 23px;
+  }
+
+  .search-input-logo {
+    top: 16px;
+  }
+}
+
+.search-right {
+  display: inline-block;
+  position: relative;
+  left: -1px;
+
+  input {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-left: 19px;
+    margin: 0;
+  }
+
+  .fl-input-form-label {
+    position: absolute;
+    top: -6px;
+    left: 19px;
+  }
+}
+
+.fl-input-form {
+  min-width: 250px;
+}

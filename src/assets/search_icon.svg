@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>search_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M307.91114,37.3551247 C307.910318,37.3717458 307.909903,37.3884742 307.909903,37.4053001 L307.909903,45.414505 C307.909903,45.9542382 308.357618,46.4099026 308.909903,46.4099026 C309.466038,46.4099026 309.909903,45.9642479 309.909903,45.414505 L309.909903,37.4053001 C309.909903,37.3884941 309.909468,37.3717696 309.908611,37.3551379 C314.410032,36.858369 317.909903,33.0429659 317.909903,28.4099026 C317.909903,23.4382469 313.880465,19.4099026 308.909903,19.4099026 C303.938247,19.4099026 299.909903,23.4393398 299.909903,28.4099026 C299.909903,33.0438997 303.410594,36.8583675 307.91114,37.3551247 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="27" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-Results" transform="translate(-714.000000, -58.000000)" stroke-width="4" stroke="#E338A3">
+            <g id="Group-2" transform="translate(418.000000, 38.000000)">
+                <g id="form">
+                    <use id="search_icon" mask="url(#mask-2)" transform="translate(308.909903, 32.909903) rotate(-45.000000) translate(-308.909903, -32.909903) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

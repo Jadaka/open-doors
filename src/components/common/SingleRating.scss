@@ -1,0 +1,24 @@
+.company-rating {
+  margin-top: 3px;
+}
+
+.overall-rating-container {
+  line-height: 79px;
+}
+
+.overall-rating-container > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.overall-rating-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.rating-stats {
+  position: relative;
+  right: -34px;
+}

@@ -1,0 +1,21 @@
+// google fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+
+@import './vars';
+
+html {
+  font-size: $_base-font-size;
+  font-family: 'Roboto', Georgia, serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+// adds font-size rule for each element in $_font-sizes map
+@each $element, $size in $_font-sizes {
+  #{$element} {
+    font-size: $size;
+  }
+}

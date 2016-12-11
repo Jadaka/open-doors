@@ -1,0 +1,20 @@
+@import './vars';
+
+@function palette($palette, $tone: 0) {
+  /**
+   *
+   *  Palette function for generating a color within the color scheme
+   *
+   *  @param {string} : palette
+   *  @param {integer} : tone
+   */
+  $color: map-get($_colors, $palette);
+
+  @if ($tone > 0) {
+    @return lighten($color, $tone * 1%);
+  } @else if ($tone < 0) {
+    @return darken($color, ($tone * -1) * 1%);
+  }
+  
+  @return $color;
+}
